@@ -1,7 +1,6 @@
 Build
 -----
 ::
-
     brew install openssl
     cabal sandbox init
     cabal install hsOpenSSL --extra-lib-dirs=/usr/local/lib --extra-include-dirs=/usr/local/include
@@ -11,7 +10,6 @@ Build
 Usage
 -----
 ::
-
     APNPush --help
     Usage: apnspush [-tmcks] [tokens file, message, cert file, key file, sandbox]
       -m          Message to send
